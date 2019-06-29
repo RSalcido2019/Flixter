@@ -8,6 +8,12 @@ h1,h2, h3, h4, h5, h6, .navbar{
   border-radius: 0;
 }
 
+.feature {
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .frosty h1 {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
@@ -32,14 +38,19 @@ h1,h2, h3, h4, h5, h6, .navbar{
   background: image_url('dark_wood.png');
 }
 
+body {
+  background: image_url('bg.png');
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
 .navbar-inverse a.navbar-brand {
   font-family: "Helvetica Neue", Helvetica;
   font-weight: 100;
   color: white;
 }
 
-.hero{
-  background: url(hero.jpg) no-repeat center center fixed; 
+.hero {
+  background: image_url('hero.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
