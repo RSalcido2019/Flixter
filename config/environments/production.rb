@@ -1,6 +1,9 @@
 Rails.application.configure do
   # Settings specified here will take precedence over those in config/application.rb.
 
+  # points the url to heroku app
+  config.action_mailer.default_url_options = { host: 'flixter-ricardo-salcido.herokuapp.com' }
+
   # Code is not reloaded between requests.
   config.cache_classes = true
 
