@@ -1,11 +1,16 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-
+gem "figaro"
+# Figaro gem 
+gem "fog-aws"
+# fog gem allows communication with Amazon S3
+gem 'carrierwave-aws'
+# Carrier wave AWS
 gem "mini_magick"
 # MiniMagick
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
-# Carrier wave gem
+# Carrier wave
 ruby '2.5.3'
 # Devise gem 
 gem 'devise'
