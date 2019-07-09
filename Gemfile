@@ -1,6 +1,11 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+
+gem "mini_magick"
+# MiniMagick
+gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
+# Carrier wave gem
 ruby '2.5.3'
 # Devise gem 
 gem 'devise'
