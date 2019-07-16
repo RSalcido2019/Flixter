@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+
+gem "stripe"
+# Stripe
 gem "figaro"
 # Figaro gem 
 gem "fog-aws"
