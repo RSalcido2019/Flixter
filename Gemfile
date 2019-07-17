@@ -1,7 +1,10 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
-
+gem 'jquery-ui-rails'
+# jQuery-ui-(effects and widgets)
+gem 'jquery-rails'
+# jQuery (JavaScript library)
 gem 'ranked-model'
 # ranked-model
 gem "stripe"
