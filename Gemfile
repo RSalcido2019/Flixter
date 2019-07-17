@@ -2,6 +2,8 @@ source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
 
+gem 'ranked-model'
+# ranked-model
 gem "stripe"
 # Stripe
 gem "figaro"
