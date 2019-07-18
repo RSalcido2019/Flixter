@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+
+gem "font-awesome-rails"
+# font Awesome
 gem 'jquery-ui-rails'
 # jQuery-ui-(effects and widgets)
 gem 'jquery-rails'
