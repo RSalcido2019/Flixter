@@ -21,7 +21,7 @@ gem "mini_magick"
 # MiniMagick
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
 # Carrier wave
-ruby '2.6.3'
+ruby '2.5.3'
 # Devise gem 
 gem 'devise'
 # Simple form gem 
