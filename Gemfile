@@ -1,6 +1,9 @@
 source 'https://rubygems.org'
 git_source(:github) { |repo| "https://github.com/#{repo}.git" }
 
+
+ruby '2.5.3'
+
 gem "font-awesome-rails"
 # font Awesome
 gem 'jquery-ui-rails'
@@ -21,15 +24,22 @@ gem "mini_magick"
 # MiniMagick
 gem 'carrierwave', '>= 2.0.0.rc', '< 3.0'
 # Carrier wave
-ruby '2.5.3'
+
 # Devise gem 
 gem 'devise'
 # Simple form gem 
 gem 'simple_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.3'
+group :production do
 # Use postgresql as the database for Active Record
-gem 'pg', '>= 0.18', '< 2.0'
+  gem 'pg'
+end
+
+group :development do
+  gem 'sqlite3'
+end
+
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
